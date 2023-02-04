@@ -1,15 +1,12 @@
 package com.example.cvproject;
 
 
-import com.example.cvproject.model.Hero;
-import com.example.cvproject.model.HeroProfession;
-import com.example.cvproject.repository.HeroProfessionRepository;
-import com.example.cvproject.repository.HeroRepository;
+import com.example.cvproject.model.hero.Hero;
+import com.example.cvproject.model.hero.HeroProfession;
+import com.example.cvproject.repository.hero.HeroProfessionRepository;
 import com.example.cvproject.service.HeroService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;
-import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import java.util.List;

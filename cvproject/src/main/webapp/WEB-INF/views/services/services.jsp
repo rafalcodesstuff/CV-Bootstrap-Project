@@ -1,3 +1,6 @@
+<!-- ======= Head + Nav Section ======= -->
+<%@include file="../head.jsp"%>
+
 <section id="services" class="services">
     <div class="container" data-aos="fade-up">
 
@@ -90,3 +93,9 @@
 
     </div>
 </section><!-- End Services Section -->
+
+<!-- ======= Testimonials Section ======= -->
+<%@include file="testimonials.jsp"%>
+
+<!-- ======= Footer Section ======= -->
+<%@include file="../footer.jsp"%>

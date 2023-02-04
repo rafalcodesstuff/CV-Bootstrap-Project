@@ -1,4 +1,4 @@
-package com.example.cvproject.model;
+package com.example.cvproject.model.hero;
 
 
 import lombok.Getter;

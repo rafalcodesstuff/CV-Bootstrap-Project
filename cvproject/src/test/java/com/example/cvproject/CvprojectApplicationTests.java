@@ -1,7 +1,7 @@
 package com.example.cvproject;
 
-import com.example.cvproject.model.HeroProfession;
-import com.example.cvproject.repository.HeroProfessionRepository;
+import com.example.cvproject.model.hero.HeroProfession;
+import com.example.cvproject.repository.hero.HeroProfessionRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;

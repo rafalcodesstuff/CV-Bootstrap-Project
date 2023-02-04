@@ -1,15 +1,13 @@
 package com.example.cvproject.service;
 
-import com.example.cvproject.model.Hero;
-import com.example.cvproject.model.HeroProfession;
-import com.example.cvproject.repository.HeroProfessionRepository;
-import com.example.cvproject.repository.HeroRepository;
+import com.example.cvproject.model.hero.Hero;
+import com.example.cvproject.model.hero.HeroProfession;
+import com.example.cvproject.repository.hero.HeroProfessionRepository;
+import com.example.cvproject.repository.hero.HeroRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
 import java.util.stream.Collectors;
 
 @Service

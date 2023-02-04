@@ -1,5 +1,6 @@
-package com.example.cvproject.model;
+package com.example.cvproject.model.hero;
 
+import com.example.cvproject.model.hero.Hero;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.Setter;
@@ -17,7 +18,7 @@ public class HeroProfession {
     @Column(name = "profession_name")
     private String professionName;
 
-    @ManyToOne()
+    @ManyToOne
     @JoinColumn(name = "hero_id", nullable = false)
     private Hero hero;
 }

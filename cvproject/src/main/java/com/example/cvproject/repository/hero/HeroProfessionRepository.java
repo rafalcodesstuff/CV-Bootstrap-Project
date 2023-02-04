@@ -1,6 +1,6 @@
-package com.example.cvproject.repository;
+package com.example.cvproject.repository.hero;
 
-import com.example.cvproject.model.HeroProfession;
+import com.example.cvproject.model.hero.HeroProfession;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
